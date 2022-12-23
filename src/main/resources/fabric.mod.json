@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "potion_flasks",
+  "version": "${version}",
+
+  "name": "Potion Flasks",
+  "description": "Multi-use Flasks of Potions",
+  "authors": [
+    "LordDeatHunter"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "",
+  "icon": "assets/potion_flasks/textures/item/potion_flasks_icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "wraith.potion_flasks.PotionFlasks"
+    ],
+    "client": [
+      "wraith.potion_flasks.PotionFlasksClient"
+    ]
+  },
+  "mixins": [
+    "potion_flasks.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  }
+}

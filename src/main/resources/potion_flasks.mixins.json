@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "wraith.potion_flasks.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "CraftingScreenHandlerMixin",
+    "RecipeManagerMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

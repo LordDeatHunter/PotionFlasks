@@ -1,0 +1,44 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "potion_flasks:item/large_flask"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "potion_flasks:filled_amount": 1
+            },
+            "model": "potion_flasks:item/large_potion_flask_0"
+        },
+        {
+            "predicate": {
+                "potion_flasks:filled_amount": 2
+            },
+            "model": "potion_flasks:item/large_potion_flask_1"
+        },
+        {
+            "predicate": {
+                "potion_flasks:filled_amount": 3
+            },
+            "model": "potion_flasks:item/large_potion_flask_2"
+        },
+        {
+            "predicate": {
+                "potion_flasks:filled_amount": 4
+            },
+            "model": "potion_flasks:item/large_potion_flask_3"
+        },
+        {
+            "predicate": {
+                "potion_flasks:filled_amount": 5
+            },
+            "model": "potion_flasks:item/large_potion_flask_4"
+        },
+        {
+            "predicate": {
+                "potion_flasks:filled_amount": 6
+            },
+            "model": "potion_flasks:item/large_potion_flask_5"
+        }
+    ]
+}

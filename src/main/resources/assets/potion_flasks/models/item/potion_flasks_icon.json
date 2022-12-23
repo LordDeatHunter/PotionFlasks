@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "potion_flasks:item/potion_flasks_icon"
+  }
+}

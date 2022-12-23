@@ -1,0 +1,7 @@
+{
+    "parent": "item/bow",
+    "textures": {
+        "layer0": "potion_flasks:item/large_potion_flask_overlay_4",
+        "layer1": "potion_flasks:item/large_flask"
+    }
+}
